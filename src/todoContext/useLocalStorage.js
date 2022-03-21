@@ -21,7 +21,7 @@ function useLocalStorage(itemName, initialValue){
       } catch (error) {
         setError(error)
       }
-    }, 15000);
+    }, 5000);
   }, )
   
     //guardamos los datos en el localstorage. para persistencia de datos

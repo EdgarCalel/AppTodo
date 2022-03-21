@@ -12,7 +12,7 @@ function TodosLoading({error}) {
         <i class="fa-solid fa-spinner"></i><p className="LoadingTodo-text">Cargando to Dos...</p>
         <span className="LoadingTodo-deleteIcon"></span>
     </div><br />
-    <img className='Principal_loading--img' src={LogoFondo} alt=""  />
+    <img className='Principal_loading--img' src={LogoFondo} alt="" width={300} />
      </div>
      </>
  )
