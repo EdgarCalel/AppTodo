@@ -6,12 +6,17 @@
     align-items: center;
     flex-direction: column;
 }
+.principal-Img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .Principal_loading--img{
     -webkit-filter: drop-shadow(12px 12px 7px rgba(154, 247, 5, 0.973));
     filter: drop-shadow(10px 12px 7px rgb(162, 115, 250));
     padding: 10px;
     margin: 10px;
-    width: 80%;
+    width: 40%;
 }
 .LoadingTodo-container {
     width: calc(100% - 20%);
